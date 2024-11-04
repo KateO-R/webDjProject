@@ -6,6 +6,7 @@ def index(request):
     return render(request, 'MyApp/index.html')
 def news(request):
     return render(request, 'MyApp/news.html')
-
-def test(request):
-    return HttpResponse("<h1>This is the test page of MyApp!</h1>")
+def fun(request):
+    return render(request, 'MyApp/fun.html')
+def table(request):
+    return render(request, 'MyApp/table.html')

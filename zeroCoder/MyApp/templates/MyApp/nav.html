@@ -1,4 +1,20 @@
-<ul>
-    <li><a href="">Main page</a></li>
-    <li><a href="">Second page</a></li>
-</ul>
+<!-- nav.html -->
+{% load static %}
+<nav class="navbar" style="background-color: red; padding: 10px; border-radius: 10px;">
+    <div class="container" style="display: flex; align-items: center; flex-direction: column;">
+        <div class="navbar-left" style="flex: 0 0 auto;">
+            <img src="{% static 'main/img/MC1.png' %}" alt="Merry Christmas" width="150px" class="img-fluid">
+        </div>
+        <div class="navbar-center navbar-header" style="flex: 1; text-align: center;">
+            <h1 class="navbar-title">Christmas Celebration</h1>
+        </div>
+        <div class="navbar-right" style="flex: 0 0 auto; margin-top: 10px;">
+            <ul class="navbar-menu">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'page2' %}">Things to do</a></li>
+                <li><a href="{% url 'fun' %}">Fun facts</a></li>
+                <li><a href="{% url 'table' %}">Christmas table</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
