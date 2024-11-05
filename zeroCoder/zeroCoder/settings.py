@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'news1',
     'MyApp',
     'main',
     'django.contrib.admin',
