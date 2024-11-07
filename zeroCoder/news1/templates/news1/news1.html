@@ -1,0 +1,20 @@
+{% extends 'MyApp/layoute.html'%}
+
+{% block title %}
+    <title>Blog page</title>
+{% endblock %}
+
+{% block content %}
+<h1>Blog page</h1>
+
+{% for new in news %}
+    <div>
+        <h2>{{ new.title }}</h2>
+        <p><strong>Author:</strong> {{ new.author.username }}</p>
+        <p>{{ new.short_description }}</p>
+        <p>{{ new.text }}</p>
+        <p><strong>Published on:</strong> {{ new.pub_date }}</p>
+    </div>
+{% endfor %}
+
+{% endblock %}
