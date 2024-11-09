@@ -90,4 +90,41 @@
             color: #ffd700;
             text-decoration: none;
         }
+        form.p-4 {
+            padding: 1.5rem; /* 24px padding */
+            border: 1px solid #ccc;
+            border-radius: 0.5rem; /* Скругленные углы формы */
+        }
+
+        .form-group {
+            margin-bottom: 1rem; /* Отступ между группами */
+        }
+
+        .form-control {
+            margin-bottom: 10px; /* Отступ между полями */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Легкая тень для глубины */
+        }
+
+        textarea.form-control {
+            resize: vertical; /* Разрешить изменение размера только по вертикали */
+            min-height: 100px; /* Минимальная высота для удобства написания */
+        }
+
+        .button-container {
+            text-align: right; /* Выравнивание кнопки справа */
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            color: #ffffff;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
 </style>
