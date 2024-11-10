@@ -90,31 +90,31 @@
             color: #ffd700;
             text-decoration: none;
         }
-        form.p-4 {
-            padding: 1.5rem; /* 24px padding */
+        .special-page form.p-4 {
+            padding: 1.5rem;
             border: 1px solid #ccc;
-            border-radius: 0.5rem; /* Скругленные углы формы */
+            border-radius: 0.5rem;
         }
 
-        .form-group {
-            margin-bottom: 1rem; /* Отступ между группами */
+        .special-page .form-group {
+            margin-bottom: 1rem;
         }
 
-        .form-control {
-            margin-bottom: 10px; /* Отступ между полями */
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Легкая тень для глубины */
+        .special-page .form-control {
+            margin-bottom: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
-        textarea.form-control {
-            resize: vertical; /* Разрешить изменение размера только по вертикали */
-            min-height: 100px; /* Минимальная высота для удобства написания */
+        .special-page textarea.form-control {
+            resize: vertical;
+            min-height: 100px;
         }
 
-        .button-container {
-            text-align: right; /* Выравнивание кнопки справа */
+        .special-page .button-container {
+            text-align: right;
         }
 
-        .btn-primary {
+        .special-page .btn-primary {
             background-color: #007bff;
             border-color: #007bff;
             color: #ffffff;
@@ -124,7 +124,7 @@
             transition: background-color 0.3s;
         }
 
-        .btn-primary:hover {
+        .special-page .btn-primary:hover {
             background-color: #0056b3;
         }
 </style>
